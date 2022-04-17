@@ -81,7 +81,7 @@ description: Create AWS Application Load Balancer Custom HTTP Header, 302 Redire
       actions = [{
         type        = "redirect"
         status_code = "HTTP_302"
-        host        = "stacksimplify.com"
+        host        = "skillclick.tech"
         path        = "/aws-eks/"
         query       = ""
         protocol    = "HTTPS"
@@ -104,7 +104,7 @@ description: Create AWS Application Load Balancer Custom HTTP Header, 302 Redire
       actions = [{
         type        = "redirect"
         status_code = "HTTP_302"
-        host        = "stacksimplify.com"
+        host        = "skillclick.tech"
         path        = "/azure-aks/azure-kubernetes-service-introduction/"
         query       = ""
         protocol    = "HTTPS"

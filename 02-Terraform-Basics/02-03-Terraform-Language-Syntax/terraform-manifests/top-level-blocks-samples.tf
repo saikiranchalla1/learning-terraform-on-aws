@@ -10,9 +10,9 @@ terraform {
   }
   # Adding Backend as S3 for Remote State Storage with State Locking
   backend "s3" {
-    bucket = "terraform-stacksimplify"
+    bucket = "terraform-csk"
     key    = "dev2/terraform.tfstate"
-    region = "us-east-1"  
+    region = "us-east-1"
 
     # For State Locking
     dynamodb_table = "terraform-dev-state-table"
